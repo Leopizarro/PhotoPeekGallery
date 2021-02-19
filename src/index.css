@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Domine:wght@600&family=Fredericka+the+Great&family=IBM+Plex+Sans:ital@1&family=Jura:wght@300&family=Playfair+Display:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Calistoga&display=swap');
+
+body, html {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: url(./assets/fondooscuro.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.progress-bar{
+  height: 7px;
+  background: green;
+  margin-top: 20px;
+  margin-left: 5px;
+  margin-right: 10px;
+}
+
+.img-grid{
+  margin: 20px auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 10px;
+}
+
+.img-wrap{
+  overflow: hidden;
+  height: 0;
+  padding: 50% 0;
+  position: relative;
+  opacity: 0.85;
+}
+
+.img-wrap img {
+  min-width: 100%;
+  min-height: 100%;
+  max-width: 120%;
+  position: absolute;
+  text-align: center;
+  top: 50%;  /* position the top  edge of the element at the middle of the parent */
+  left: 50%; /* position the left edge of the element at the middle of the parent */
+  transform: translate(-50%, -50%);
+}
+
+.backdrop{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+}
+.backdrop img{
+  display: block;
+  max-height: 100%;
+  max-width: 100%;
+  margin: auto;
+  box-shadow: 3px 5px 7px rgba(0, 0, 0, 0.7);
+  border: 3px solid white;
+}
+
+.carousel-wrap img {
+  min-width: 100%;
+  min-height: 60vh;
+  max-width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+label input {
+  height: 0;
+  width: 0;
+  opacity: 0;
+}
+
+.label-subirfoto {
+  width: 30px;
+  height: 30px;
+  border: 1px solid green;
+  margin: 5px auto;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  border-radius: 10px;
+  color:white;
+  background: green;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.label-subirfoto:hover {
+  background: darkgreen;
+  color: white;
+  cursor: pointer;
+}
+
+.carousel-container {
+  border-top: 2px solid gray;
+  border-bottom: 2px solid gray;
+}
+
+.landing-img-wrap {
+  background: url("https://images.unsplash.com/photo-1495549115977-ca0a18c9f6a4?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80") no-repeat center center fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 40vh;
+  width: 100%;
+  padding: 10px;
+}
+
+.landing-img-spray {
+  background: url("assets/spraycans.jpg") no-repeat center center fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 40vh;
+  width: 100%;
+  padding: 10px;
+}
+
+.bg {
+  /* The image used */
+  background-image: url("assets/spraycans.jpg");
+
+  /* Full height */
+  height: 50%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.landing-grid {
+  margin: 20px auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 10px;
+}
+
+.split {
+  height: 100%;
+  width: 49.5%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+  opacity: 0.8;
+  font-family: 'Calistoga', cursive;
+}
+
+/* Control the left side */
+.left {
+  left: 0;
+  background-color: #111;
+  background: url("assets/spraycans.jpg") no-repeat center center fixed;
+  background-size: cover;
+  border-right: 3px solid whitesmoke;
+  color: white;
+  font-size: xx-large;
+}
+
+/* Control the right side */
+.right {
+  right: 0;
+  background-color: red;
+  background: url("assets/cellphoneimg2.jpg") no-repeat center center fixed;
+  background-size: cover;
+  border-left: 3px solid whitesmoke;
+  color: white;
+  font-size: x-large;
+}
+
+/* If you want the content centered horizontally and vertically */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* Style the image inside the centered container, if needed */
+.centered img {
+  width: 150px;
+  border-radius: 50%;
+}
+
+.capstitle {
+  font-family: 'Domine', serif;
+}
+
+.lowercase-title {
+  font-family: 'Jura', sans-serif;
+  display: inline-block;
+}
+
+.filename {
+  color:white;
+}
+
+.bordertext {
+  text-shadow: 2px 0 0 rgb(0, 0, 0), -2px 0 0 rgb(0, 0, 0), 0 2px 0 rgb(0, 0, 0), 0 -2px 0 rgb(0, 0, 0), 1px 1px rgb(0, 0, 0), -1px -1px 0 rgb(0, 0, 0), 1px -1px 0 rgb(0, 0, 0), -1px 1px 0 rgb(0, 0, 0);
+}
