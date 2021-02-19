@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/PhotoPeekGallery/static/css/main.2425b545.chunk.css",
+    "main.js": "/PhotoPeekGallery/static/js/main.b3ceacfe.chunk.js",
+    "main.js.map": "/PhotoPeekGallery/static/js/main.b3ceacfe.chunk.js.map",
+    "runtime-main.js": "/PhotoPeekGallery/static/js/runtime-main.3b9b5005.js",
+    "runtime-main.js.map": "/PhotoPeekGallery/static/js/runtime-main.3b9b5005.js.map",
+    "static/css/2.b8792111.chunk.css": "/PhotoPeekGallery/static/css/2.b8792111.chunk.css",
+    "static/js/2.2f95f678.chunk.js": "/PhotoPeekGallery/static/js/2.2f95f678.chunk.js",
+    "static/js/2.2f95f678.chunk.js.map": "/PhotoPeekGallery/static/js/2.2f95f678.chunk.js.map",
+    "static/js/3.4b5beb55.chunk.js": "/PhotoPeekGallery/static/js/3.4b5beb55.chunk.js",
+    "static/js/3.4b5beb55.chunk.js.map": "/PhotoPeekGallery/static/js/3.4b5beb55.chunk.js.map",
+    "index.html": "/PhotoPeekGallery/index.html",
+    "static/css/2.b8792111.chunk.css.map": "/PhotoPeekGallery/static/css/2.b8792111.chunk.css.map",
+    "static/css/main.2425b545.chunk.css.map": "/PhotoPeekGallery/static/css/main.2425b545.chunk.css.map",
+    "static/js/2.2f95f678.chunk.js.LICENSE.txt": "/PhotoPeekGallery/static/js/2.2f95f678.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/PhotoPeekGallery/static/media/spraycans.3b53c687.jpg",
+    "static/media/logo.6ce24c58.svg": "/PhotoPeekGallery/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3b9b5005.js",
+    "static/css/2.b8792111.chunk.css",
+    "static/js/2.2f95f678.chunk.js",
+    "static/css/main.2425b545.chunk.css",
+    "static/js/main.b3ceacfe.chunk.js"
+  ]
+}
