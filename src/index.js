@@ -3,22 +3,25 @@ import ReactDOM from 'react-dom';
 import {
   BrowserRouter as Router,
   Switch,
+  HashRouter,
   Route,
-  Link
 } from "react-router-dom";
 import './index.css';
 import App from './App';
 import App2 from './App2';
 import Landing from './components/Landing';
-import Slider from './components/Carousel';
-import ControlledCarousel from './components/CarouselCG'
 import reportWebVitals from './reportWebVitals';
 import 'tachyons';
 import SignIn from './components/SignIn';
+import { Helmet } from 'react-helmet';
 
+const TITLE = 'PHOTOPEEK HOME';
 const routing = (
-  <Router>
+  <HashRouter basename="/">
     <div className="content">
+      <Helmet>
+          <title>{ TITLE }</title>
+      </Helmet>
       <Switch>
         <Route exact path="/" component= {Landing} />
         <Route exact path="/spraypaint" component={App} />
@@ -26,7 +29,7 @@ const routing = (
         <Route exact path="/signin" component={SignIn} />
       </Switch>
     </div>
-  </Router>
+  </HashRouter>
 );
 
 ReactDOM.render(routing,document.getElementById('root'));
