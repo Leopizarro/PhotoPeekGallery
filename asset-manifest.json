@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/PhotoPeekGallery/static/css/main.2425b545.chunk.css",
-    "main.js": "/PhotoPeekGallery/static/js/main.727d94e1.chunk.js",
-    "main.js.map": "/PhotoPeekGallery/static/js/main.727d94e1.chunk.js.map",
+    "main.js": "/PhotoPeekGallery/static/js/main.86031494.chunk.js",
+    "main.js.map": "/PhotoPeekGallery/static/js/main.86031494.chunk.js.map",
     "runtime-main.js": "/PhotoPeekGallery/static/js/runtime-main.3b9b5005.js",
     "runtime-main.js.map": "/PhotoPeekGallery/static/js/runtime-main.3b9b5005.js.map",
     "static/css/2.b8792111.chunk.css": "/PhotoPeekGallery/static/css/2.b8792111.chunk.css",
@@ -21,6 +21,6 @@
     "static/css/2.b8792111.chunk.css",
     "static/js/2.39573b82.chunk.js",
     "static/css/main.2425b545.chunk.css",
-    "static/js/main.727d94e1.chunk.js"
+    "static/js/main.86031494.chunk.js"
   ]
 }
