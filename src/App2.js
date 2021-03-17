@@ -20,7 +20,7 @@ function App2() {
       </div>
       <div className="App">
         <SliderCG />
-        {/* <SubirFotoCG /> */}
+        <SubirFotoCG />
         <ImageGridCG setSelectedImg={setSelectedImg}/>
         { selectedImg && <Modal selectedImg={selectedImg} setSelectedImg={setSelectedImg}/>}
       </div>
